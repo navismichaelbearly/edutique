@@ -1,0 +1,41 @@
+<?php
+date_default_timezone_set('Asia/Singapore');
+/*Constant PHP variables that will be used through out the application*/
+$active= "Active";
+$inactive= "Inactive";
+$sysURL = "https://www.powersoft.com.sg/ES/";
+$sysURLlocal ="http://localhost/edutiquesystem/";
+$admconst = 5;
+$admstdconst = 3;
+$admtchconst = 2;
+$admprogtchconst = 4;
+$admindvconst = 6;
+$passwordStrengthtext = "Your password should have a minimum of 8 characters and at least 1 numeral, 1 capital letter, 1 lowercase letter and 1 Special Character.";
+$passwordText = "You may not reuse the same password for 3 consecutive times.";
+$forgotPasswordtextwithoutemail ="If you are registered under Username, then please contact Admin";
+$todaysDate = date("Y-m-d H:i:s");
+$loginLog = "Logged in to the Edutique System";
+$passwordupdateLog = "Password updated";
+$profilepicupdateLog = "Profile picture updated";
+$profilepicremoveLog = "Profile picture removed";
+$articleRead = "Article Reading";
+$activity = "Activity";
+$peerReview = "Peer Review";
+$unopened = "Unopened";
+$incomplete = "Incomplete";
+$completed = "Completed";
+$overdue = "Overdue";
+$admintitle = "Admin";
+$studentText = "Student";
+$classteacherText = "Class Teacher";
+$proraminchargeText = "Teacher Incharge of the Programme";
+$uploadUsertext = "Do note : This function is to add new users that are NOT currently on Edutique. If you would like to make changes for existing users, search for the existing user under Logs and editing options would be available";
+$downTemp = "Download Template for new bulk users";
+$studentFaq ="Students";
+$parentFaq = "Parents";
+$educatorFaq = "Educators";
+$resolved = "Resolved";
+$unresolved = "Unresolved";
+$tech = "Tech";
+$nontech = "Non-tech";
+?>
