@@ -4,7 +4,7 @@ date_default_timezone_set('Asia/Singapore');
 $active= "Active";
 $inactive= "Inactive";
 $sysURL = "https://www.powersoft.com.sg/ES/";
-$sysURLlocal ="http://localhost/edutiquesystem/";
+$sysURLlocal ="http://localhost:8080/";
 $admconst = 5;
 $admstdconst = 3;
 $admtchconst = 2;
