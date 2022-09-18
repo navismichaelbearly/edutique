@@ -1,7 +1,4 @@
 <?php
-
-//update_is_type_status.php
-
 require_once "../inc/config.php";
 include "../inc/constants.php";
 

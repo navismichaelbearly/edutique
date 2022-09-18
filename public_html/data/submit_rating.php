@@ -1,7 +1,4 @@
 <?php
-
-//submit_rating.php
-
 error_reporting(-1);
 ini_set('display_errors', true);
 session_start(); /*Session Start*/

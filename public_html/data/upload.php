@@ -1,7 +1,4 @@
 <?php
-
-//upload.php
-
 if(!empty($_FILES))
 {
 	if(is_uploaded_file($_FILES['uploadFile']['tmp_name']))

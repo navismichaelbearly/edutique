@@ -1,6 +1,5 @@
 <?php
 session_start(); /*Session Start*/
-
 /* Checks if user is logged in to the system if not then it will be redirected to login page - security */
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     header("location: login.php");

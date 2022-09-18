@@ -1,7 +1,4 @@
 <?php
-
-//update_last_activity.php
-
 require_once "../inc/config.php";
 include "../inc/constants.php";
 

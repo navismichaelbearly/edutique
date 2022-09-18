@@ -3,7 +3,6 @@ ini_set('memory_limit', '40M');
 ini_set('max_execution_time', 80000);
 ini_set('post_max_size', '40M');
 ini_set('upload_max_filesize', '40M');
-
 session_start(); /*Session Start*/
 /* Checks if user is logged in to the system if not then it will be redirected to login page - security */
 if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {

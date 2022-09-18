@@ -98,7 +98,7 @@ if ($_POST['mag'] != '') {
 
 				$stringContent = strlen($mag_title) > 50 ? substr($mag_title,0,70)."..." : $mag_title;
 				echo "<tr><td style='vertical-align:middle'>".$sr."</td>";
-				echo "<td class='normaltext'><a href='magDetail.php?magID=".$mag_id."&artID=".$article_id_one."&actID=0&prev=1'><img src='".$mag_image_path."' width='100' height='133' class='img__img' style='border:1px solid #CCCCCC'></a>
+				echo "<td class='normaltext'><a href='magDetails.php?magID=".$mag_id."&artID=0&actID=0&prev=1'><img src='".$mag_image_path."' width='100' height='133' class='img__img' style='border:1px solid #CCCCCC'></a>
 						<p><br>" . $mag_type ." Magazine</p></td>";
 				echo "<td class='normaltext' style='vertical-align:middle'>" . $mag_type." ".$mag_issue ."</td>";
 				echo "<td class='normaltext' style='vertical-align:middle'>" . $mag_title ."</td>";
